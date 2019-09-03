@@ -1,3 +1,5 @@
+#extract_and_compile.sh takes two arguments, a number that is passed to  C program as an arugment and the name of the directory where the C compiles.
+
 #make a directory and extract into it.
 mkdir -p $2
 tar xf NthPrime.tgz -C $2
