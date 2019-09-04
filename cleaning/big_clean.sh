@@ -1,4 +1,4 @@
-#big_clean.sh takes tow arguments, the name of a .tgz file to uncompress and the directory where the extracted files are stored
+#big_clean.sh takes two arguments, the name of a .tgz file to uncompress and the directory where the extracted files are stored
 
 tar xf $1 -C $2
 #Store the starting directory 
